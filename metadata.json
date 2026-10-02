@@ -1,0 +1,8 @@
+{
+  "name": "Chengmi: Khagrachari & Chittagong Hill Tracts Historical Repository",
+  "description": "Comprehensive historical research repository, interactive chronological timeline (Pre-colonial & 1760–Present), regional cartographic map, research archives CMS, and scholarship blog for Khagrachari and the Chittagong Hill Tracts.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

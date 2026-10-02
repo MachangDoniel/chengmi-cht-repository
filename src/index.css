@@ -1,0 +1,33 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-serif: "Source Serif 4", Georgia, Cambria, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-display: "Cinzel", "Source Serif 4", Georgia, serif;
+}
+
+/* Custom scrollbar for archival timeline and data tables */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ede4;
+}
+::-webkit-scrollbar-thumb {
+  background: #c8bfae;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #9c8e76;
+}
+
+/* Ambient hill topography watermarks */
+.bg-topo-hills {
+  background-image: radial-gradient(circle at 10% 20%, rgba(254, 243, 199, 0.4) 0%, transparent 20%),
+                    radial-gradient(circle at 90% 80%, rgba(209, 250, 229, 0.4) 0%, transparent 25%),
+                    radial-gradient(circle at 50% 50%, rgba(254, 215, 170, 0.2) 0%, transparent 35%);
+}

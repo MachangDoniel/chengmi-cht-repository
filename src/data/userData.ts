@@ -1,0 +1,52 @@
+import { User } from '../types';
+
+export const INITIAL_USERS: User[] = [
+  {
+    id: 'usr-admin-01',
+    name: 'Doniel Tripura',
+    email: 'donieltripura121@gmail.com',
+    role: 'super_admin',
+    institution: 'Chittagong Hill Tracts Historical Research Initiative & Mong Circle Heritage Council',
+    canViewSensitive: true,
+    canPublish: true,
+    canManageUsers: true,
+    createdDate: '2024-01-15',
+    passwordHash: 'Qazxsw@121', // Securely checked in AuthContext
+  },
+  {
+    id: 'usr-archivist-02',
+    name: 'Kripayan Marma',
+    email: 'kripayan.marma@cht-archives.org',
+    role: 'archivist',
+    institution: 'Manikchari Rajbari Archives & Research Center',
+    canViewSensitive: true,
+    canPublish: true,
+    canManageUsers: false,
+    createdDate: '2024-03-20',
+    passwordHash: 'MarmaArchive@2024',
+  },
+  {
+    id: 'usr-researcher-03',
+    name: 'Dr. Ananya Chakma',
+    email: 'ananya.chakma@cu.ac.bd',
+    role: 'researcher',
+    institution: 'Department of Anthropology, University of Chittagong',
+    canViewSensitive: true,
+    canPublish: false,
+    canManageUsers: false,
+    createdDate: '2024-06-11',
+    passwordHash: 'ChakmaRes#2024',
+  },
+  {
+    id: 'usr-contributor-04',
+    name: 'Praneshwar Tripura',
+    email: 'praneshwar.tripura@heritage.bd',
+    role: 'contributor',
+    institution: 'Tripura Cultural Institute, Khagrachari',
+    canViewSensitive: false,
+    canPublish: false,
+    canManageUsers: false,
+    createdDate: '2024-08-05',
+    passwordHash: 'TripuraField@2024',
+  },
+];
