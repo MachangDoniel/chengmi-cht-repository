@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="https://ais-pre-7kl665iuxevia6v2jec335-155832180601.asia-southeast1.run.app" target="_blank" rel="noopener noreferrer">
+  <a href="https://chengmi-khagrachari-chittagong-hill-tracts-histor.ai.studio/" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/🌐_LIVE_WEB_APP-LAUNCH_PORTAL-059669?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Launch Live Portal" />
   </a>
 </p>
@@ -23,7 +23,7 @@
 
 | 🌐 Deployment Target | Public Access Link |
 | :--- | :--- |
-| **Official Public Live Application** | [**https://ais-pre-7kl665iuxevia6v2jec335-155832180601.asia-southeast1.run.app**](https://ais-pre-7kl665iuxevia6v2jec335-155832180601.asia-southeast1.run.app) |
+| **Official Public Live Application** | [**https://chengmi-khagrachari-chittagong-hill-tracts-histor.ai.studio/**](https://chengmi-khagrachari-chittagong-hill-tracts-histor.ai.studio/) |
 | **GitHub Source Code** | [**https://github.com/MachangDoniel/chengmi-cht-repository**](https://github.com/MachangDoniel/chengmi-cht-repository) |
 
 </div>
@@ -34,8 +34,9 @@
 
 The digital platform is accessible directly via any modern web browser on desktop, tablet, and mobile devices without installation:
 
-👉 **[Launch Chengmi Public Portal](https://ais-pre-7kl665iuxevia6v2jec335-155832180601.asia-southeast1.run.app)**
+👉 **[Launch Chengmi Public Portal](https://chengmi-khagrachari-chittagong-hill-tracts-histor.ai.studio/)**
 
+- **URL**: `https://chengmi-khagrachari-chittagong-hill-tracts-histor.ai.studio/`
 - **No login required** to explore the interactive GIS maps, parallel chiefdom timelines, and oral history recordings.
 - **Full responsive design** with dark parchment and archival light themes.
 - **Low-bandwidth optimized** for field researchers and educators across the Chittagong Hill Tracts.
@@ -188,7 +189,7 @@ When citing resources from this repository in academic or legal research, please
   author    = {Tripura, Doniel and Historical Research Contributors},
   title     = {Chengmi: Khagrachari & Chittagong Hill Tracts Historical Repository},
   year      = {2026},
-  url       = {https://ais-pre-7kl665iuxevia6v2jec335-155832180601.asia-southeast1.run.app},
+  url       = {https://chengmi-khagrachari-chittagong-hill-tracts-histor.ai.studio/},
   note      = {Source Code: https://github.com/MachangDoniel/chengmi-cht-repository},
   publisher = {Chittagong Hill Tracts Historical Digital Initiative}
 }
