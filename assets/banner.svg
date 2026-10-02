@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c1110"/>
+      <stop offset="40%" stop-color="#14211e"/>
+      <stop offset="80%" stop-color="#1a2d28"/>
+      <stop offset="100%" stop-color="#0d1815"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="50%" stop-color="#FCD34D"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="50%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#059669" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#223b33" stroke-width="0.75" stroke-opacity="0.4"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="480" fill="url(#bgGrad)"/>
+  <rect width="1200" height="480" fill="url(#glow)"/>
+  <rect width="1200" height="480" fill="url(#grid)"/>
+
+  <!-- Topographic Contour Lines -->
+  <path d="M 0 380 Q 300 320, 600 390 T 1200 340 L 1200 480 L 0 480 Z" fill="#091411" opacity="0.8"/>
+  <path d="M 0 410 Q 350 360, 750 430 T 1200 390 L 1200 480 L 0 480 Z" fill="#060e0c" opacity="0.9"/>
+  <path d="M 0 280 Q 250 210, 550 260 T 1200 230" fill="none" stroke="#10b981" stroke-width="1.2" stroke-dasharray="4,6" opacity="0.4"/>
+  <path d="M 0 320 Q 380 250, 700 310 T 1200 270" fill="none" stroke="#f59e0b" stroke-width="1" stroke-dasharray="2,4" opacity="0.3"/>
+
+  <!-- Geometric Frame Accents -->
+  <rect x="24" y="24" width="1152" height="432" rx="16" fill="none" stroke="#2d4a40" stroke-width="1.5" opacity="0.6"/>
+  <rect x="32" y="32" width="1136" height="416" rx="12" fill="none" stroke="#10b981" stroke-width="0.75" stroke-dasharray="8,8" opacity="0.3"/>
+
+  <!-- Badge Top -->
+  <g transform="translate(60, 65)">
+    <rect width="320" height="34" rx="17" fill="#064e3b" stroke="#10b981" stroke-width="1" opacity="0.9"/>
+    <circle cx="18" cy="17" r="5" fill="#34d399"/>
+    <text x="32" y="22" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#a7f3d0" letter-spacing="1.5">CHITTAGONG HILL TRACTS REPOSITORY</text>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="60" y="155" font-family="'Georgia', serif" font-size="52" font-weight="900" fill="#ffffff" letter-spacing="-0.5">CHENGMI (চেঙ্গী)</text>
+  <text x="60" y="195" font-family="'Georgia', serif" font-size="22" font-style="italic" fill="url(#goldGrad)">Historical Research Repository &amp; Interactive GIS Cartographic Atlas</text>
+  <text x="60" y="240" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14" fill="#9ca3af" max-width="600">
+    <tspan x="60" dy="0">A comprehensive digital archive preserving indigenous customary governance,</tspan>
+    <tspan x="60" dy="22">26 Upazila geospatial boundaries, 3 royal circle timelines (1760–Present),</tspan>
+    <tspan x="60" dy="22">and rare oral history audio soundscapes across Khagrachari, Rangamati &amp; Bandarban.</tspan>
+  </text>
+
+  <!-- Feature Pills -->
+  <g transform="translate(60, 335)">
+    <!-- Pill 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="180" height="42" rx="10" fill="#182723" stroke="#2d4a40" stroke-width="1"/>
+      <text x="16" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#34d399">🗺️ Leaflet GIS Atlas</text>
+    </g>
+    <!-- Pill 2 -->
+    <g transform="translate(195, 0)">
+      <rect width="205" height="42" rx="10" fill="#182723" stroke="#2d4a40" stroke-width="1"/>
+      <text x="16" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#fcd34d">👑 3 Chiefdom Timelines</text>
+    </g>
+    <!-- Pill 3 -->
+    <g transform="translate(415, 0)">
+      <rect width="210" height="42" rx="10" fill="#182723" stroke="#2d4a40" stroke-width="1"/>
+      <text x="16" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f87171">🎙️ Web Audio Archives</text>
+    </g>
+    <!-- Pill 4 -->
+    <g transform="translate(640, 0)">
+      <rect width="180" height="42" rx="10" fill="#182723" stroke="#2d4a40" stroke-width="1"/>
+      <text x="16" y="26" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#60a5fa">📜 Customary Laws</text>
+    </g>
+  </g>
+
+  <!-- Right Visual Mockup Card (Floating Map Widget) -->
+  <g transform="translate(860, 65)">
+    <!-- Card Base -->
+    <rect width="270" height="340" rx="16" fill="#111c19" stroke="#059669" stroke-width="1.5" opacity="0.95" filter="drop-shadow(0 15px 30px rgba(0,0,0,0.7))"/>
+    
+    <!-- Header -->
+    <rect width="270" height="42" rx="16" fill="#0c1613"/>
+    <circle cx="20" cy="21" r="4.5" fill="#ef4444"/>
+    <circle cx="34" cy="21" r="4.5" fill="#f59e0b"/>
+    <circle cx="48" cy="21" r="4.5" fill="#10b981"/>
+    <text x="70" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="700" fill="#a7f3d0">GIS CARTOGRAPHIC RADAR</text>
+
+    <!-- Map Preview Canvas -->
+    <rect x="15" y="55" width="240" height="170" rx="8" fill="#08100d" stroke="#1f372f" stroke-width="1"/>
+    
+    <!-- Mini Map River & Regions -->
+    <path d="M 45 70 Q 70 120, 110 135 T 190 200" fill="none" stroke="#38bdf8" stroke-width="3" opacity="0.8"/>
+    <text x="115" y="125" font-family="sans-serif" font-size="9" fill="#38bdf8" font-style="italic">Chengi River</text>
+
+    <!-- Circles markers -->
+    <circle cx="85" cy="95" r="9" fill="#059669" opacity="0.3"/>
+    <circle cx="85" cy="95" r="4" fill="#34d399"/>
+    <text x="100" y="99" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ecfdf5">Mong Circle</text>
+
+    <circle cx="160" cy="135" r="9" fill="#d97706" opacity="0.3"/>
+    <circle cx="160" cy="135" r="4" fill="#fbbf24"/>
+    <text x="175" y="139" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fffbeb">Chakma</text>
+
+    <circle cx="120" cy="190" r="9" fill="#e11d48" opacity="0.3"/>
+    <circle cx="120" cy="190" r="4" fill="#f43f5e"/>
+    <text x="135" y="194" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fff1f2">Bohmong</text>
+
+    <!-- Audio waveform indicator in card -->
+    <rect x="15" y="240" width="240" height="75" rx="8" fill="#182723" stroke="#2d4a40" stroke-width="1"/>
+    <text x="28" y="260" font-family="sans-serif" font-size="10" font-weight="bold" fill="#fcd34d">🔊 ORAL SOUND ARCHIVE</text>
+    <text x="28" y="275" font-family="sans-serif" font-size="9" fill="#9ca3af">Mrachai Exodus (1782) • Flute &amp; Gong</text>
+
+    <!-- Wave bars -->
+    <g transform="translate(28, 290)">
+      <line x1="0" y1="12" x2="0" y2="0" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="8" y1="16" x2="8" y2="-4" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="16" y1="10" x2="16" y2="2" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="24" y1="18" x2="24" y2="-6" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="32" y1="14" x2="32" y2="-2" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="40" y1="20" x2="40" y2="-8" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="48" y1="12" x2="48" y2="0" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="56" y1="8" x2="56" y2="4" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="64" y1="16" x2="64" y2="-4" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="72" y1="14" x2="72" y2="-2" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="80" y1="18" x2="80" y2="-6" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="88" y1="10" x2="88" y2="2" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="96" y1="14" x2="96" y2="-2" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="104" y1="20" x2="104" y2="-8" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="112" y1="12" x2="112" y2="0" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="120" y1="16" x2="120" y2="-4" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="128" y1="8" x2="128" y2="4" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="136" y1="14" x2="136" y2="-2" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="144" y1="18" x2="144" y2="-6" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="152" y1="12" x2="152" y2="0" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="160" y1="16" x2="160" y2="-4" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="168" y1="10" x2="168" y2="2" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="176" y1="14" x2="176" y2="-2" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="184" y1="8" x2="184" y2="4" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="192" y1="14" x2="192" y2="-2" stroke="#fcd34d" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="200" y1="12" x2="200" y2="0" stroke="#34d399" stroke-width="2.5" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
